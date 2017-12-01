@@ -10,8 +10,7 @@ public class StillUsingVariables
 		mygradyear = 2021;
 		myname = "Miranda";
 		
-		System.out.println("My name is " + myname + " and I'll graduate in " + mygradyear + ".");
-		
+		System.out.println("My name is " + myname + " and I'll graduate in " + mygradeyear + ".");
 	}
 
 }
