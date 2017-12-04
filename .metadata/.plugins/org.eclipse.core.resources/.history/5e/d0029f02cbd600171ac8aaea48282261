@@ -10,22 +10,22 @@ public class AskingQuestions
 		int age, feet, inches;
 		double weight;
 		
-		System.out.print("What is your name? ");
+		System.out.println("What is your name? ");
 		name = keyboard.next();
 		
-		System.out.print("How old are you? ");
+		System.out.println("How old are you? ");
 		age = keyboard.nextInt();
 		
-		System.out.print("How many feet tall are you? ");
+		System.out.println("How many feet tall are you? ");
 		feet = keyboard.nextInt();
 		
-		System.out.print("How many inches? ");
+		System.out.println("How many inches? ");
 		inches = keyboard.nextInt();
 		
-		System.out.print("How much do you weigh? ");
+		System.out.println("How much do you weigh? ");
 		weight = keyboard.nextDouble();
 		
-		System.out.print("So your name is " + name + ", your age is " + age + ", you are " + feet + "'" + inches + "\", and you weigh " + weight + " lbs.");
+		System.out.println("So your name is " + name + ", your age is " + age + ", you are " + feet + "'" + inches + "\", and you weigh " + weight + " lbs.");
 
 		keyboard.close();
 	}
