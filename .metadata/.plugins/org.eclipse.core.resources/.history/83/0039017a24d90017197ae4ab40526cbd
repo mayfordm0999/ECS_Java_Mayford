@@ -1,0 +1,20 @@
+
+public class EsleAndIf 
+{
+	public static void main( String[] args )
+	{
+		int people = 30;
+		int cars = 40;
+		int buses = 15;
+		
+		if ( cars > people )
+		{
+			System.out.println("We should take the cars.");
+		}
+		else is ( cars < people )
+		{
+			System.out.println("We should not take the cars.");
+		}
+	}
+
+}
