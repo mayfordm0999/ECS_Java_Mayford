@@ -19,9 +19,9 @@ public class Randimness
 		System.out.println();
 		
 		System.out.println("Here are some numbers from 1 to 100!");
-		System.out.println( 1 + r.nextInt(100) + "\t");
-		System.out.println( 1 + r.nextInt(100) + "\t");
-		System.out.println( 1 + r.nextInt(100) + "\t");
+		System.out.println( 1 + r.nextInt(100) + "");
+		System.out.println( 1 + r.nextInt(100) + "");
+		System.out.println( 1 + r.nextInt(100) + "");
 		System.out.println();
 		
 		int num1 = 1 + r.nextInt(10);
