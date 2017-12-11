@@ -19,7 +19,6 @@ INDEX VERSION 1.130+C:\Users\mayfordm0999\Desktop\ECS_Java_Mayford\.metadata\.pl
 1543766311.index
 3867579341.index
 1106408436.index
-2670920098.index
 2032693045.index
 3184896889.index
 3184717171.index
