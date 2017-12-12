@@ -22,10 +22,8 @@ public class CollatzSequence
 				System.out.print( n + " - ");
 			}
 			else
-			{
 				n = n*3 + 1;
 				System.out.print( n + " - ");
-			}
 		} while(n > 1); 
 		System.out.print("]");
 	} 

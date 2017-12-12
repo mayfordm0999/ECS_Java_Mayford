@@ -22,9 +22,12 @@ public class BetterCollatz
 				System.out.print( n + " - ");
 			}
 			else if(n % 2 != 0)
+			{
 				n = n*3 + 1;
 				System.out.print( n + " - ");
-			    c++;
+			}
+		    c++;
+			
 		} while(n > 1);
 		System.out.println("]");
 		System.out.println("Terminated after " + c + " steps"); 
