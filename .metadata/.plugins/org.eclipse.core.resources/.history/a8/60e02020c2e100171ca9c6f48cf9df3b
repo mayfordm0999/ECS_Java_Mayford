@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class AreaCalculator 
+{
+	public static void main( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int n;
+		System.out.println("1) Triangle ");
+		System.out.println("2) Rectangle ");
+		System.out.println("3) Square ");
+		System.out.println("4) Circle ");
+		System.out.println("5) Quit ");
+		System.out.println("Which shape? ");
+		n = keyboard.nextInt();
+		triangle(1);
+		rectangle(2);
+		System.out.println("Goodbye");
+	}
+
+	private static void rectangle(int n) 
+	{
+		Scanner keyboard = new Scanner(System.in);
+		// TODO Auto-generated method stub
+		System.out.println("What is the Length? ");
+		int b = keyboard.nextInt();
+		System.out.println("What is the Width? ");
+		int h = keyboard.nextInt();
+		System.out.println("The Area is " + (b*h) );
+	}
+
+	private static void triangle(int n) 
+	{
+		Scanner keyboard = new Scanner(System.in);
+		// TODO Auto-generated method stub
+		System.out.println("What is the Base? ");
+		int b = keyboard.nextInt();
+		System.out.println("What is the Height? ");
+		int h = keyboard.nextInt();
+		System.out.println("The Area is " + (.5*b*h) );
+	}
+
+}

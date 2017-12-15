@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class AreaCalculator 
+{
+	public static void main( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int n;
+		System.out.println("1) Triangle ");
+		System.out.println("2) Rectangle ");
+		System.out.println("3) Square ");
+		System.out.println("4) Circle ");
+		System.out.println("5) Quit ");
+		System.out.println("Which shape? ");
+		n = keyboard.nextInt();
+	}
+
+}
